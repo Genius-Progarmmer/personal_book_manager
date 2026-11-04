@@ -18,5 +18,5 @@ if admin_asking == "yes":
 books = []
 load_books = load_books_info()
 
-asking_books(load_books)
+asking_books(load_books, name)
 save_books_info(load_books)
