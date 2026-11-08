@@ -12,6 +12,13 @@ A command-line book manager built with Python. It lets you enter book titles, di
 - Display all books in the collection.
 - Save the collection to `books.json`.
 - Load previously saved books when the program runs again.
+- picking priority for any book
+
+## Book Priority
+after every book that you pick and say you have to pick a priority beetween this three options:
+- high
+- medium
+- low
 
 ## Project Structure
 
