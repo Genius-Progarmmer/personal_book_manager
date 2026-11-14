@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
 
-A command-line book manager built with Python. It lets you enter book titles, display the saved collection, and store the collection in a JSON file.
+A command-line Book Manager built with Python. It lets you enter book titles, display the saved collection, and store the collection in a JSON file.
 
 ## Features
 
@@ -175,3 +175,5 @@ BOOK_MANAGER_ADMIN_PASSWORD=your_password
 ```
 
 Make sure the password you enter matches the value stored in `.env`.
+
+enjoy it!
