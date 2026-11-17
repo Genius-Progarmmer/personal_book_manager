@@ -8,13 +8,19 @@ def asking_books(books, name, count_book):
         book_name = input("\n enter a book: ")
         print(book_name, "is Great!")
         priority = input("\n enter priority(low/medium/high):").lower()
-        print("\n")
-        book = {
-            "name": name,
-            "book": book_name,
-            "priority": priority
-        }
-        books.append(book)
+        while True:
+            if priority == "low" or priority == "medium" or priority == "high":
+                print("\n")
+                book = {
+                    "name": name,
+                    "book": book_name,
+                    "priority": priority
+                }
+                books.append(book)
+                break
+            else:
+                priority = input("Error! you have to pick your priority beetween (low, mediume, high): ").lower()
+                continue
 
     print("\n your books are: ")
 
