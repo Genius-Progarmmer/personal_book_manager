@@ -19,7 +19,7 @@ def asking_books(books, name, count_book):
                 books.append(book)
                 break
             else:
-                priority = input("Error! you have to pick your priority beetween (low, mediume, high): ").lower()
+                priority = input("Error! you have to pick your Priority beetween (low|mediume|high): ").lower()
                 continue
 
     print("\n your books are: ")
